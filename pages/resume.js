@@ -102,7 +102,7 @@ export default function SideProject() {
                 <h2 className="text-base font-light text-neutral-700">Mar 2022 — May 2022</h2>
 
                 <p>
-                  • Design and developed BTN Smart
+                  • Design and developed BTN Smart for Bank Tabungan Negara
                   <br />• Identified and corrected bugs in BTN Smart
                   <br />• Design and developed Customer relationship management (CRM)
                   <br />• Worked in scrum environment
