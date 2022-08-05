@@ -45,14 +45,14 @@ export default function SideProject() {
         <div className="p-2 border-[1px] rounded-sm border-neutral-500 shadow-md">
           <div className="md:grid md:grid-cols-4 md:gap-4">
             <div className="flex justify-center">
-              <Image
+              {/* <Image
                 className="rounded-sm"
                 src="/resume/profile.jpg"
                 height={300}
                 width={200}
                 alt="Profile Picture"
                 objectFit="fill"
-              />
+              /> */}
             </div>
 
             {/* Main Section */}
