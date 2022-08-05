@@ -43,7 +43,7 @@ export default function SideProject() {
     <div className="flex flex-col items-center w-full">
       <div ref={ref} className="w-full max-w-screen-md">
         <div className="p-2 border-[1px] rounded-sm border-neutral-500 shadow-md">
-          <div class="md:grid md:grid-cols-4 md:gap-4">
+          <div className="md:grid md:grid-cols-4 md:gap-4">
             <div className="flex justify-center">
               <Image
                 className="rounded-sm"
@@ -78,16 +78,16 @@ export default function SideProject() {
             </div>
           </div>
 
-          <div class="md:grid md:grid-cols-4 md:gap-4 mt-4">
+          <div className="mt-4 md:grid md:grid-cols-4 md:gap-4">
             {/* Summary Section */}
             <div>
               <h2 className="text-2xl font-opensans">Summary</h2>
             </div>
             <div className="col-span-3">
               <p className="text-sm text-justify md:text-base">
-                I'm an undergraduate Software Engineer student at Binus University. I am a positive, enthusiastic and
-                competent Web Developer with a diverse range of skills, qualities and attribute. I have experience in
-                both frontend and backend.
+                I&apos;m an undergraduate Software Engineer student at Binus University. I am a positive, enthusiastic
+                and competent Web Developer with a diverse range of skills, qualities and attribute. I have experience
+                in both frontend and backend.
               </p>
             </div>
 
@@ -131,7 +131,7 @@ export default function SideProject() {
               <h2 className="text-2xl font-opensans">Tech Stack</h2>
             </div>
             <div className="col-span-3">
-              <div class="md:grid md:grid-cols-2 md:gap-4">
+              <div className="md:grid md:grid-cols-2 md:gap-4">
                 <div>
                   <div className="text-lg font-opensans">Web Development</div>
                   <div>

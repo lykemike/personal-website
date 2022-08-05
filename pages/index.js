@@ -9,8 +9,8 @@ export default function Home() {
           <h1 className="text-5xl font-bold font-opensans text-neutral-900">Hi there! My name is Mike</h1>
 
           <p className="pt-4 font-semibold leading-8 tracking-normal text-neutral-800">
-            Welcome to my personal website short intro — I'm a undergraduate software engineer from Binus University. I
-            like discovering and learning about new technologies and business issues.😄
+            Welcome to my personal website short intro — I&apos;m a undergraduate software engineer from Binus
+            University. I like discovering and learning about new technologies and business issues.😄
           </p>
         </div>
       </section>
@@ -18,7 +18,7 @@ export default function Home() {
       <section className="w-full max-w-screen-md p-8 mt-8">
         <h2 className="text-4xl font-semibold font-opensans">Experience ✨</h2>
 
-        <div class="grid grid-cols-1 gap-8 pt-4 mt-4">
+        <div className="grid grid-cols-1 gap-8 pt-4 mt-4">
           <div className="transition-all duration-500 shadow hover:scale-105 hover:shadow-xl">
             <div className="flex items-center bg-white rounded-md border-neutral-100">
               <div className="relative w-24 h-24 m-4 transition-all duration-500 shrink-0">
