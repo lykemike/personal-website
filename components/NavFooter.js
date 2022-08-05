@@ -21,9 +21,9 @@ const NavLinks = [
 ];
 
 const TimeZone = () => {
-  const currentDay = moment().tz("Asia/Jakarta").format("dddd");
-  const currentDate = moment().tz("Asia/Jakarta").format("MMMM D");
-  const currentTime = moment().tz("Asia/Jakarta").format("HH:mm A");
+  const currentDay = moment().format("dddd");
+  const currentDate = moment().format("MMMM D");
+  const currentTime = moment().format("HH:mm A");
   const hour = parseInt(currentTime.split(":")[0]);
   let greetings = "";
 
