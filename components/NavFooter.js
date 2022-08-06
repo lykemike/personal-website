@@ -80,7 +80,7 @@ const LinksNav = ({ href, children }) => {
   );
 };
 
-export default function Navbar({ children }) {
+export default function Navbar({ children, title }) {
   return (
     <div>
       <header className="sticky top-0 z-50 flex items-center justify-between p-4 backdrop-blur-md">
