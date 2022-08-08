@@ -30,7 +30,7 @@ const TimeZone = () => {
   if (hour >= 4 && hour <= 10) {
     greetings = "Good morning ☀️";
   } else if (hour >= 11 && hour <= 14) {
-    greetings = "Good afternoon ☀️";
+    greetings = "Good afternoon 🌇";
   } else if (hour >= 15 && hour <= 17) {
     greetings = "Good evening 🍂";
   } else if (hour >= 18 && hour <= 24) {
