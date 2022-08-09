@@ -24,7 +24,7 @@ export default function SideProject() {
               <div className="px-6 py-4">
                 <div className="mb-2 text-xl font-opensans">Rick and Morty website using The Rick and Morty API</div>
                 <p className="text-base text-neutral-700">
-                  Tech stack: React, Next.js, JavaScript, Tailwind CSS, Chakra UI GraphQL, and Apollo
+                  Tech stack: React, Next.js, JavaScript, Tailwind CSS, Chakra UI, GraphQL, and Apollo
                 </p>
               </div>
               <div className="px-6 pt-4 pb-2 mt-auto text-right">
