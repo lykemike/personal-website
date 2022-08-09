@@ -34,7 +34,7 @@ export const ExperienceProjects = [
 export const SideProjects = [
   {
     title: "Pokémon website using PokeAPI",
-    description: "Tech stack React, Next.js, TypeScript, Tailwind CSS, and Charting Libraries",
+    description: "Tech stack: React, Next.js, TypeScript, Tailwind CSS, and Charting Libraries",
     image: "/side/pokemon.JPG",
     url: "https://pokedex-with-tailwind-ts-chartjs-pokeapi.vercel.app/",
   },
@@ -43,5 +43,11 @@ export const SideProjects = [
     description: "Tech stack: React, Next.js, JavaScript, Tailwind CSS, Chakra UI, GraphQL, and Apollo",
     image: "/side/rickandmorty.jpg",
     url: "https://rick-and-morty-chakraui-graphql-ybx5dxw0p-lykemike.vercel.app/",
+  },
+  {
+    title: "Personal Profile Website",
+    description: "Tech stack: React, Next.js, JavaScript, and Tailwind CSS",
+    image: "/side/personalprofile.JPG",
+    url: "http://mikekm.xyz/",
   },
 ];
