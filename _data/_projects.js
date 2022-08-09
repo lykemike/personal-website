@@ -1,4 +1,4 @@
-export const ProjectsData = [
+export const ExperienceProjects = [
   {
     title: "PT. Hexaon Business Mitrasindo",
     position: "Fullstack Developer",
@@ -12,11 +12,13 @@ export const ProjectsData = [
       -Worked in scrum environment
       -Developed web application using Next.js, JavaScript, PostgreSQL, Prisma, Material UI, Tailwind CSS, Ant Design and Charting Libraries`,
     url: "http://hbm.co.id/",
+    image: "/experience/hbm.png",
+    show: true,
   },
   {
     title: "PT. Zegen Solusi Mandiri",
     position: "Fullstack Developer",
-    type: "Internship",
+    type: "Part-time",
     duration: "Feb 2021 — March 2022",
     description: `
     -Design and developed BTN Smart
@@ -24,5 +26,22 @@ export const ProjectsData = [
     -Design and developed Customer relationship management (CRM)
     -Worked in scrum environment`,
     url: "https://zegen.id/",
+    image: "/experience/zegen.png",
+    show: true,
+  },
+];
+
+export const SideProjects = [
+  {
+    title: "Pokémon website using PokeAPI",
+    description: "Tech stack React, Next.js, TypeScript, Tailwind CSS, and Charting Libraries",
+    image: "/side/pokemon.JPG",
+    url: "https://pokedex-with-tailwind-ts-chartjs-pokeapi.vercel.app/",
+  },
+  {
+    title: "Rick and Morty website using The Rick and Morty API",
+    description: "Tech stack: React, Next.js, JavaScript, Tailwind CSS, Chakra UI, GraphQL, and Apollo",
+    image: "/side/rickandmorty.jpg",
+    url: "https://rick-and-morty-chakraui-graphql-ybx5dxw0p-lykemike.vercel.app/",
   },
 ];

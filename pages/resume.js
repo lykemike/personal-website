@@ -1,4 +1,5 @@
-import Image from "next/image";
+import { NextSeo } from "next-seo";
+import Link from "next/link";
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { HiLocationMarker, HiMailOpen, HiPhone } from "react-icons/hi";
@@ -27,8 +28,6 @@ import {
   SiXampp,
 } from "react-icons/si";
 import Pdf from "react-to-pdf";
-import { NextSeo } from "next-seo";
-import Link from "next/link";
 
 const ref = React.createRef();
 
