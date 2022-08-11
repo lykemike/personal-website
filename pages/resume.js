@@ -26,17 +26,9 @@ import {
   SiVisualstudiocode,
   SiXampp,
 } from "react-icons/si";
-import Pdf from "react-to-pdf";
+import PdfExport from "../components/PdfExport";
 
 const ref = React.createRef();
-
-const options = {
-  orientation: "p",
-  unit: "mm",
-  format: "a4",
-  putOnlyUsedFonts: true,
-  floatPrecision: 16,
-};
 
 Resume.title = "Resume";
 export default function Resume() {
@@ -235,16 +227,7 @@ export default function Resume() {
           </div>
 
           <div className="flex justify-end mt-8">
-            <Pdf options={options} targetRef={ref} filename="resume_michael_kevin_montolalu.pdf">
-              {({ toPdf }) => (
-                <button
-                  onClick={toPdf}
-                  className="p-2 font-semibold tracking-wide uppercase transition-all delay-100 rounded-tr-sm rounded-bl-sm shadow-sm shrink-0 hover:-translate-y-1 rounded-tl-2xl rounded-br-2xl bg-rose-500 text-neutral-800 hover:shadow-lg hover:bg-rose-400"
-                >
-                  Download Résumé
-                </button>
-              )}
-            </Pdf>
+            <PdfExport targetRef={ref} fileName="resume_michael_kevin_montolalu" />
           </div>
         </div>
       </div>
