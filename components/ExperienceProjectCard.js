@@ -8,7 +8,7 @@ function ExperienceProjectCard({ title, position, type, duration, url, image }) 
       <div className="transition-all duration-500 shadow hover:scale-105 hover:shadow-xl">
         <div className="flex items-center bg-white rounded-md border-neutral-100">
           <div className="relative w-24 h-24 m-4 transition-all duration-500 shrink-0">
-            <Image src={image} alt={image} layout="fill" blurDataURL="URL" placeholder="blur" />
+            <Image src={image} alt={image} priority={false} layout="fill" blurDataURL="URL" placeholder="blur" />
           </div>
           <div className="w-full my-4 mr-4">
             <div className="flex flex-col md:flex-row md:justify-between">

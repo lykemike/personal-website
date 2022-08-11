@@ -15,7 +15,7 @@ function SideProjectCard({ title, description, image, url }) {
           objectFit="cover"
           layout="responsive"
           quality={75}
-          priority={true}
+          priority={false}
           blurDataURL="URL"
           placeholder="blur"
         />
