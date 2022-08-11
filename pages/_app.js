@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
     <div className="min-h-screen antialiased gradient-bg selection:bg-rose-300 ">
       <Head>
         <link rel="icon" href="/logo.png" />
+        <title>{Component.title}</title>
       </Head>
       <Navfooter>
         <Component {...pageProps} />

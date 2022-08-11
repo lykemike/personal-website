@@ -1,4 +1,3 @@
-import { NextSeo } from "next-seo";
 import Link from "next/link";
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
@@ -39,24 +38,15 @@ const options = {
   floatPrecision: 16,
 };
 
-export default function SideProject() {
+Resume.title = "Resume";
+export default function Resume() {
   return (
     <div>
-      <NextSeo title="Resume" />
       <div className="flex flex-col items-center w-full">
         <div ref={ref} className="w-full max-w-screen-md">
           <div className="p-2 border-[1px] rounded-sm border-neutral-500 shadow-md">
             <div className="md:grid md:grid-cols-4 md:gap-4">
-              <div className="flex justify-center">
-                {/* <Image
-                className="rounded-sm"
-                src="/resume/profile.jpg"
-                height={300}
-                width={200}
-                alt="Profile Picture"
-                objectFit="fill"
-              /> */}
-              </div>
+              <div className="flex justify-center"></div>
 
               {/* Main Section */}
               <div className="col-span-3 mt-2 md:mt-0">
