@@ -16,6 +16,8 @@ function SideProjectCard({ title, description, image, url }) {
           layout="responsive"
           quality={75}
           priority={true}
+          blurDataURL="URL"
+          placeholder="blur"
         />
       </div>
       <div className="px-6 py-4">
