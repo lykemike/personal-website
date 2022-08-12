@@ -42,7 +42,7 @@ export const SideProjects = [
     title: "Rick and Morty website using The Rick and Morty API",
     description: "Tech stack: React, Next.js, JavaScript, Tailwind CSS, Chakra UI, GraphQL, and Apollo",
     image: "/side/rickandmorty.jpg",
-    url: "https://rick-and-morty-chakraui-graphql-ybx5dxw0p-lykemike.vercel.app/",
+    url: "https://rick-and-morty-chakraui-graphql-iq0wfyd90-lykemike.vercel.app/",
   },
   {
     title: "Personal Profile Website",
