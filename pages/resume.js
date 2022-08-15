@@ -35,8 +35,8 @@ export default function Resume() {
   return (
     <div>
       <div className="flex flex-col items-center w-full">
-        <div ref={ref} className="w-full max-w-screen-md">
-          <div className="p-2 border-[1px] rounded-sm border-neutral-500 shadow-md">
+        <div ref={ref} className="w-full max-w-screen-md ">
+          <div className="p-2 border-[1px] rounded-sm border-neutral-500 shadow-md bg-white bg-opacity-5">
             <div className="md:grid md:grid-cols-4 md:gap-4">
               <div className="flex justify-center"></div>
 

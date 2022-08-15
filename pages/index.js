@@ -6,25 +6,29 @@ Home.title = "Mike's Personal Website";
 export default function Home({ data }) {
   return (
     <div>
-      <main className="flex flex-col items-center w-full">
+      <main className="flex flex-col items-center justify-center w-full h-screen">
         <section>
+          <div className="w-full text-center">
+            <h1 className="font-bold text-7xl md:text-9xl font-worksans text-neutral-900">H E L L O ;</h1>
+            <h2 className="mt-4 text-3xl font-bold tracking-widest md:text-5xl font-worksans text-neutral-900">
+              MY NAME IS MIKE
+            </h2>
+          </div>
           <div className="w-full max-w-2xl text-center">
-            <h1 className="text-5xl font-bold font-opensans text-neutral-900">Hi there! My name is Mike</h1>
-
-            <p className="pt-4 font-semibold leading-8 tracking-normal text-neutral-800">
-              Welcome to my personal website short intro — I&apos;m a undergraduate software engineer from Binus
-              University. I like discovering and learning about new technologies and business issues.😄
+            <p className="mt-4 font-semibold leading-8 tracking-normal md:text-xl text-neutral-800">
+              Welcome to my personal portfolio website short intro — I&apos;m a undergraduate software engineer from
+              Binus University. I like discovering and learning about new technologies and business issues.😄
             </p>
           </div>
         </section>
 
-        <section className="w-full max-w-screen-md p-8 mt-8">
+        {/* <section className="w-full max-w-screen-md p-8 mt-8">
           <h2 className="text-4xl font-semibold font-opensans">Experience ✨</h2>
 
           {data?.map((data, index) => (
             <ExperienceProjectCard key={index} {...data} />
           ))}
-        </section>
+        </section> */}
       </main>
     </div>
   );

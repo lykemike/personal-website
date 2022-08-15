@@ -40,7 +40,7 @@ const TimeZone = () => {
   }
 
   return (
-    <div className="font-opensans text-neutral-700">
+    <div className="tracking-wider font-opensans text-neutral-700">
       <div className="flex space-x-1">
         <div>{`${greetings}`}</div>
         <div>{`${currentTime}`}</div>
@@ -70,7 +70,7 @@ const LinksNav = ({ href, children }) => {
   return (
     <Link href={href} key={href} passHref>
       <a
-        className={`flex h-full items-center p-4 text-lg tracking-tight hover:bg-rose-200 hover:text-rose-700 rounded-md ${
+        className={`flex h-full items-center p-4 text-lg tracking-tight hover:bg-rose-300 hover:text-rose-700 rounded-md ${
           isCurrentPath ? "font-bold text-rose-800" : null
         }`}
       >
@@ -120,8 +120,9 @@ export default function Navbar({ children, title }) {
 
       <div className="flex flex-col items-center w-full px-8 mt-8">
         <footer className="w-full max-w-2xl">
-          {/* <section className="grid grid-cols-1 my-4"></section> */}
-          <div className="my-12 text-lg text-center font-opensans text-neutral-600">🔥🔰 Mike 2022 🔰🔥</div>
+          <div className="my-12 text-xl font-bold tracking-widest text-center uppercase font-worksans text-neutral-900">
+            🔥🔰 Mike 2022 🔰🔥
+          </div>
         </footer>
       </div>
     </div>

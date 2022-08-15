@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         opensans: ["Open Sans", ...defaultTheme.fontFamily.sans],
+        worksans: ["Work Sans", ...defaultTheme.fontFamily.sans],
       },
     },
   },
