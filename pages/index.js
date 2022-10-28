@@ -8,13 +8,13 @@ export default function Home({ data }) {
     <div>
       <main className="flex flex-col items-center justify-center w-full h-screen">
         <section>
-          <div className="w-full text-center">
+          <div className="text-center">
             <h1 className="font-bold text-7xl md:text-9xl font-worksans text-neutral-900">H E L L O ;</h1>
             <h2 className="mt-4 text-3xl font-bold tracking-widest md:text-5xl font-worksans text-neutral-900">
               MY NAME IS MIKE
             </h2>
           </div>
-          <div className="w-full max-w-2xl text-center">
+          <div className="max-w-2xl text-center ">
             <p className="mt-4 font-semibold leading-8 tracking-normal md:text-xl text-neutral-800">
               Welcome to my personal portfolio website short intro — I&apos;m a undergraduate software engineer from
               Binus University. I like discovering and learning about new technologies and business issues.😄

@@ -50,4 +50,10 @@ export const SideProjects = [
     image: "/side/personalprofile.JPG",
     url: "http://mikekm.xyz/",
   },
+  {
+    title: "Medium 2.0",
+    description: "Tech stack: Next.js, TypeScript, Tailwind CSS and Sanity CMS",
+    image: "/side/medium2.0.JPG",
+    url: "https://sanitymedium2.vercel.app/",
+  },
 ];

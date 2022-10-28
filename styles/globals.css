@@ -4,8 +4,10 @@
 
 .gradient-bg {
   @apply bg-neutral-100;
+
+  /* background: #1f1d2b */
   
-  background: radial-gradient(circle at bottom center, #39cced, transparent 40%),
+  background: radial-gradient(circle at bottom center, #8fe0f1, transparent 40%),
     radial-gradient(circle at bottom left, #c471ed, transparent 80%),
     radial-gradient(circle at right, #f64f59, transparent 40%), rgb(245 245 245);
 }
