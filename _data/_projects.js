@@ -33,10 +33,10 @@ export const ExperienceProjects = [
 
 export const SideProjects = [
   {
-    title: "Pokémon website using PokeAPI",
+    title: "Pokémon 2.0 using PokeAPI",
     description: "Tech stack: React, Next.js, TypeScript, Tailwind CSS, and Charting Libraries",
     image: "/side/pokemon.JPG",
-    url: "https://pokedex-with-tailwind-ts-chartjs-pokeapi.vercel.app/",
+    url: "https://pokemon2-chi.vercel.app/",
   },
   {
     title: "Rick and Morty website using The Rick and Morty API",
